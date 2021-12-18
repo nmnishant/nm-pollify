@@ -2,6 +2,8 @@
 User can create polls and share their link with others
 
 <h4><a href="https://documenter.getpostman.com/view/11728108/UVRAHSYQ">Click here for documentation</h4>
+  
+<h4>Tech used : Pug, NodeJS, Express, MongoDB, Mongoose, HTML, CSS, JavaScript
 
 <h4>Screenshots</h4>
 
