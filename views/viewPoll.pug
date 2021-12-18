@@ -1,0 +1,25 @@
+extends base
+
+block link 
+    link(rel='stylesheet' href='/pollStyle.css')
+
+mixin option(name)
+    .input-group
+        .input-group-text
+            input.form-check-input.mt-0(type="radio" value="" aria-label="Radio button for following text input")
+        .form-control 
+            .name= name 
+            .percentage.hide 0%
+   
+block content 
+    .container 
+        .head 
+            h1.headText= pollQuestion
+        .option-container
+            each option in options
+                +option(option.value)
+        input(type="hidden" id="pollID" name="pollID" value=`${_id}`)
+        button.btn.submitBtn(type="button")= 'Submit'
+
+block script 
+    script(src='/pollScript.js')

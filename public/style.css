@@ -1,0 +1,154 @@
+body {
+    box-sizing: border-box;
+    background-color: #edf2ff;
+}
+
+.container {
+    padding: 30px;
+    width: 75vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50px;
+    /* background-color: rgba(116, 143, 252, 0.4); */
+}
+
+.headText {
+    padding-bottom: 50px;
+    font-weight: 100;
+}
+
+#floatingInput{
+    height: 5rem;
+}
+
+#floatingInput:hover{
+    border: 2px solid #364fc7;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.input-group{
+    margin-top: 30px;
+}
+
+.ph-plus-circle, .btn{
+    font-size: 3rem;
+    color: rgb(116, 143, 252);
+    margin-top: 30px;
+    width: 50px;
+}
+
+.ph-plus-circle:hover, .btn:hover{
+    color: rgb(83, 111, 224);
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: whitesmoke;
+    background-color: rgb(116, 143, 252);
+    border: 2px solid #bac8ff;
+}
+
+.delete {
+    background-color: #91a7ff;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.delete:hover {
+    background-color: #748ffc;
+}
+
+
+.option-text {
+    background-color: #91a7ff;
+    font-weight: 300;
+}
+
+.navbar{
+    background-color: #748ffc;
+    margin-bottom: 3rem;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-nav{
+    margin-left: 13.5vw;
+    display: flex;
+    align-items: center;
+}
+
+.right-nav{
+    margin-right: 13.5vw;
+}
+
+.icon-img{
+    height: 45px;
+}
+
+.nav-name{
+    margin-left: 20px;
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.navbar-brand{
+    color: whitesmoke;
+}
+
+.navbar-brand:hover{
+    color: whitesmoke;
+}
+
+.action-container{
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    font-size: 1rem;
+    width: 7rem;
+    margin-left: 30px;
+    border: 2px solid rgb(116, 143, 252);
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.alert{
+    height: 60px;
+    overflow: hidden;
+}
+
+.successPoll{
+    display: flex;
+}
+
+.successPoll > button{
+    margin-top: -5px;
+    margin-left: 30px;
+    background-color: #6ECB63;
+    color: whitesmoke;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    height:35px;
+}
+
+.hide {
+    display: none;
+}
+
+.input-group-text{
+    background-color: rgb(116, 143, 252);
+}
+
+.ip-check{
+    width: 15rem;
+}

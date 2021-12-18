@@ -1,0 +1,134 @@
+body {
+    box-sizing: border-box;
+    background-color: #edf2ff;
+}
+
+.container {
+    padding: 30px;
+    width: 75vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50px;
+}
+
+.headText {
+    padding-bottom: 50px;
+    font-weight: 100;
+}
+
+.input-group{
+    margin-top: 30px;
+}
+
+.btn:hover {
+    color: whitesmoke;
+    background-color: rgb(116, 143, 252);
+    border: 2px solid #bac8ff;
+}
+
+.navbar{
+    background-color: #748ffc;
+    margin-bottom: 3rem;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-nav{
+    margin-left: 13.5vw;
+    display: flex;
+    align-items: center;
+}
+
+.right-nav{
+    margin-right: 13.5vw;
+}
+
+.icon-img{
+    height: 45px;
+}
+
+.nav-name{
+    margin-left: 20px;
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.navbar-brand{
+    color: whitesmoke;
+}
+
+.navbar-brand:hover{
+    color: whitesmoke;
+}
+
+
+.btn{
+    font-size: 1rem;
+    width: 7rem;
+    margin-top: 50px;
+    border: 2px solid rgb(116, 143, 252);
+    color: rgb(116, 143, 252);
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -20px;
+}
+
+.input-group-text{
+    background-color: rgb(116, 143, 252);
+}
+
+.ip-check{
+    width: 15rem;
+}
+
+.form-control{
+    height: 3rem;
+    /* padding-left: 15px;
+    padding-top: 10px; */
+    padding: 0px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-control:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+.percentage{
+    color: white;
+    background-color: rgb(116, 143, 252);
+    height: 100%;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name{
+    padding-left: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.blocked {
+    background-color: lightgray;
+    color: black;
+    border: 1px solid black;
+    cursor: auto;
+    pointer-events: none;
+}
+
+.hide {
+    display: none;
+}

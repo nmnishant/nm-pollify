@@ -1,0 +1,30 @@
+extends base
+
+mixin option(no)
+    .input-group.input-group-lg
+        span#inputGroup-sizing-default.input-group-text.option-text= `Option ${no}`
+        input.form-control(type='text' aria-label='Sizing example input' aria-describedby='inputGroup-sizing-default')
+        span#inputGroup-sizing-default.input-group-text.delete -
+
+block content 
+    .container
+        .head
+            h1.headText What do you want to ask ?
+            .alert.alert-danger.hide(role='alert') Please enter question
+            .alert.alert-success.successPoll.hide(role='alert')
+                p.successMsg Poll created
+                button.copyLinkBtn Copy link
+        .questionArea.form-floating.mb-3
+            input#floatingInput.form-control(type='email' placeholder='Enter your question')
+            label(for='floatingInput') Question
+        .option-container
+            +option(1)
+            +option(2)
+        .ip-check
+            .input-group.mb-3
+                .input-group-text
+                    input.form-check-input.mt-0(type='checkbox' value='' aria-label='Checkbox for following text input')
+                input.form-control(value='IP Detection' disabled='disabled' aria-label='Text input with checkbox' style='background:none')
+        .action-container
+            i.ph-plus-circle
+            button.btn.askBtn(type='button') Ask
