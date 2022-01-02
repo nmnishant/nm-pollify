@@ -1,7 +1,8 @@
-# <img src="https://nm-pollify.herokuapp.com/images/icon.png" style="height:45px"> Pollify
+# <a href="https://nm-pollify.herokuapp.com/"><img src="https://nm-pollify.herokuapp.com/images/icon.png" style="height:45px"> Pollify </a>
 User can create polls and share their link with others
 
 <h4><a href="https://documenter.getpostman.com/view/11728108/UVRAHSYQ">Click here for documentation</a></h4>
+
 
 <br>
 Tech used : Pug, NodeJS, Express, MongoDB, Mongoose, HTML, CSS, JavaScript
