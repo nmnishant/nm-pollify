@@ -8,7 +8,7 @@ User can create polls and share their link with others
 Tech used : Pug, NodeJS, Express, MongoDB, Mongoose, HTML, CSS, JavaScript
 <br><br>
 
-<h4>Screenshots :</h4>
+<h4>Demo Video :</h4>
 <br>
 
-<img width="1440" alt="Screenshot 2021-12-18 at 1 13 26 PM" src="https://user-images.githubusercontent.com/74682951/146633648-27becfbe-bdf7-4713-950a-430c67ebf776.png">
+![pollify](https://user-images.githubusercontent.com/74682951/147888735-b474545c-42b7-4f2a-92cd-fe850d8dda8e.gif)
